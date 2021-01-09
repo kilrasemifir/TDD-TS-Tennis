@@ -64,8 +64,27 @@ Si un joueur gagne un point pendant un jeu decisif il passe de 0 à 1, puis 2, .
 Il faut avoir deux points d'avance pour gagner le jeu et donc le set.
 
 Le premier joueur a 2 sets gagnés gagne la partie.
+Quand un joueur a gagner, il n'est plus possible de changer les scores.
+L'utilisateur doit etre avertie que la partie est finie.
 
 ### Developpement
 Nous devons créer la classe `CompteurDeScoreTennis` qui contiendra une bonne patie de notre code.
 Nous devons aussi créer nos entités `Partie` et `Joueur`.
 
+## Exécuté votre code
+
+Pour initialisé le projet
+```shell
+npm i
+```
+
+Pour éxécuté votre code
+```shell
+npm i
+npm run start
+```
+
+Pour lancer les tests unitaires
+```shell
+npm run test:unit
+```
